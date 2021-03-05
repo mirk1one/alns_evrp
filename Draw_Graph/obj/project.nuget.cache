@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "EMFoS75iftQrVLZ0On4jBkZqmZrMOPgBC6XOB0SLfKneIOP3VNhPzpWQaowP60uZO/Pn1dnZ6JD3aI9kbFuGmg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\Draw_Graph\\Draw_Graph.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mirko\\.nuget\\packages\\automaticgraphlayout\\1.1.11\\automaticgraphlayout.1.1.11.nupkg.sha512",
+    "C:\\Users\\mirko\\.nuget\\packages\\automaticgraphlayout.drawing\\1.1.11\\automaticgraphlayout.drawing.1.1.11.nupkg.sha512",
+    "C:\\Users\\mirko\\.nuget\\packages\\automaticgraphlayout.graphviewergdi\\1.1.11\\automaticgraphlayout.graphviewergdi.1.1.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,161 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AutomaticGraphLayout/1.1.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AutomaticGraphLayout.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutomaticGraphLayout.dll": {}
+        }
+      },
+      "AutomaticGraphLayout.Drawing/1.1.11": {
+        "type": "package",
+        "dependencies": {
+          "AutomaticGraphLayout": "1.1.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll": {}
+        }
+      },
+      "AutomaticGraphLayout.GraphViewerGDI/1.1.11": {
+        "type": "package",
+        "dependencies": {
+          "AutomaticGraphLayout.Drawing": "1.1.11"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Msagl.GraphViewerGdi.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Msagl.GraphViewerGdi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutomaticGraphLayout/1.1.11": {
+      "sha512": "eCedsyBYhxpOFXCnX3+RPsZ0oIZ3pvKzfg2XDXvYGi6zcJmP4LdowiQLBpy4dwvQO0Sl0FEJ8EkfzwmIuLdzZA==",
+      "type": "package",
+      "path": "automaticgraphlayout/1.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automaticgraphlayout.1.1.11.nupkg.sha512",
+        "automaticgraphlayout.nuspec",
+        "lib/netstandard2.0/AutomaticGraphLayout.dll"
+      ]
+    },
+    "AutomaticGraphLayout.Drawing/1.1.11": {
+      "sha512": "A2eq3GvW4pg+1QKfcy/JQZN2S4qdxli0Vqcinyq7fUIM597NRcp2vufNbo5m9tJtQN7qW+OmKcfnsesrdt3j9Q==",
+      "type": "package",
+      "path": "automaticgraphlayout.drawing/1.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automaticgraphlayout.drawing.1.1.11.nupkg.sha512",
+        "automaticgraphlayout.drawing.nuspec",
+        "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll"
+      ]
+    },
+    "AutomaticGraphLayout.GraphViewerGDI/1.1.11": {
+      "sha512": "6Mz5RfqpRh5yiGVivkTLEkHb3JTNrPiqjvLZoou+3eCof5JO/B64OK5gkZH8D7Vhu/VFF5ikvxD4mvT6xLzY1A==",
+      "type": "package",
+      "path": "automaticgraphlayout.graphviewergdi/1.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automaticgraphlayout.graphviewergdi.1.1.11.nupkg.sha512",
+        "automaticgraphlayout.graphviewergdi.nuspec",
+        "lib/net472/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/net61/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/netcoreapp3.1/Microsoft.Msagl.GraphViewerGdi.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AutomaticGraphLayout >= 1.1.11",
+      "AutomaticGraphLayout.Drawing >= 1.1.11",
+      "AutomaticGraphLayout.GraphViewerGDI >= 1.1.11"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mirko\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\Draw_Graph\\Draw_Graph.csproj",
+      "projectName": "Draw_Graph",
+      "projectPath": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\Draw_Graph\\Draw_Graph.csproj",
+      "packagesPath": "C:\\Users\\mirko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\Draw_Graph\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mirko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AutomaticGraphLayout": {
+            "target": "Package",
+            "version": "[1.1.11, )"
+          },
+          "AutomaticGraphLayout.Drawing": {
+            "target": "Package",
+            "version": "[1.1.11, )"
+          },
+          "AutomaticGraphLayout.GraphViewerGDI": {
+            "target": "Package",
+            "version": "[1.1.11, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

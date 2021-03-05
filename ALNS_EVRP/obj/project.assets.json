@@ -1,0 +1,447 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Aspose.Cells/20.12.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.7.0",
+          "System.Text.Encoding.CodePages": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard20/Aspose.Cells.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard20/Aspose.Cells.dll": {}
+        }
+      },
+      "AutomaticGraphLayout/1.1.11": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AutomaticGraphLayout.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutomaticGraphLayout.dll": {}
+        }
+      },
+      "AutomaticGraphLayout.Drawing/1.1.11": {
+        "type": "package",
+        "dependencies": {
+          "AutomaticGraphLayout": "1.1.11"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll": {}
+        }
+      },
+      "AutomaticGraphLayout.GraphViewerGDI/1.1.11": {
+        "type": "package",
+        "dependencies": {
+          "AutomaticGraphLayout.Drawing": "1.1.11"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.Msagl.GraphViewerGdi.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.Msagl.GraphViewerGdi.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Drawing.Common/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "compile": {
+          "ref/netcoreapp3.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Text.Encoding.CodePages/4.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Draw_Graph/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AutomaticGraphLayout": "1.1.11",
+          "AutomaticGraphLayout.Drawing": "1.1.11",
+          "AutomaticGraphLayout.GraphViewerGDI": "1.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Draw_Graph.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Draw_Graph.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Aspose.Cells/20.12.0": {
+      "sha512": "n1A244KwI2LmpGtwnkXu8oDaeNHrSEOpRlZDGepLYeojQ6BMrqphutMoBpDetEk6lSbMAl4g2sIHxrTBwKjLbQ==",
+      "type": "package",
+      "path": "aspose.cells/20.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Help/Aspose.Cells For .NET Documentation.chm",
+        "License/thirdpartylicenses.Aspose.Cells.for.NET.pdf",
+        "acw_client/acwmain.js",
+        "acw_client/b1.gif",
+        "acw_client/b2.gif",
+        "acw_client/b3.gif",
+        "acw_client/b4.gif",
+        "acw_client/b5.gif",
+        "acw_client/b6.gif",
+        "acw_client/b7.gif",
+        "acw_client/b8.gif",
+        "acw_client/collapse.gif",
+        "acw_client/colordlg.htm",
+        "acw_client/dot.gif",
+        "acw_client/dropdown.gif",
+        "acw_client/expand.gif",
+        "acw_client/findDlg.htm",
+        "acw_client/findDlg.js",
+        "acw_client/fontdlg.htm",
+        "acw_client/fontdlg.js",
+        "acw_client/fontdlg_l.htm",
+        "acw_client/fontdlg_l.js",
+        "acw_client/form.gif",
+        "acw_client/gridwebform.js",
+        "acw_client/headerBg.gif",
+        "acw_client/lang_cn.js",
+        "acw_client/lang_en.js",
+        "acw_client/larrow.gif",
+        "acw_client/loading.gif",
+        "acw_client/menu.css",
+        "acw_client/rarrow.gif",
+        "acw_client/save.gif",
+        "acw_client/star.gif",
+        "acw_client/submit.gif",
+        "acw_client/undo.gif",
+        "acw_client/updating.gif",
+        "acw_client/x.gif",
+        "aspose.cells.20.12.0.nupkg.sha512",
+        "aspose.cells.nuspec",
+        "lib/MonoAndroid44/Aspose.Cells.dll",
+        "lib/MonoAndroid44/Aspose.Cells.xml",
+        "lib/net20/Aspose.Cells.dll",
+        "lib/net20/Aspose.Cells.xml",
+        "lib/net35/Aspose.Cells.dll",
+        "lib/net35/Aspose.Cells.xml",
+        "lib/net40-client/Aspose.Cells.dll",
+        "lib/net40-client/Aspose.Cells.xml",
+        "lib/net40/Aspose.Cells.dll",
+        "lib/net40/Aspose.Cells.xml",
+        "lib/netstandard20/Aspose.Cells.dll",
+        "lib/netstandard20/Aspose.Cells.xml",
+        "lib/xamarinios10/Aspose.Cells.dll",
+        "lib/xamarinios10/Aspose.Cells.xml"
+      ]
+    },
+    "AutomaticGraphLayout/1.1.11": {
+      "sha512": "eCedsyBYhxpOFXCnX3+RPsZ0oIZ3pvKzfg2XDXvYGi6zcJmP4LdowiQLBpy4dwvQO0Sl0FEJ8EkfzwmIuLdzZA==",
+      "type": "package",
+      "path": "automaticgraphlayout/1.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automaticgraphlayout.1.1.11.nupkg.sha512",
+        "automaticgraphlayout.nuspec",
+        "lib/netstandard2.0/AutomaticGraphLayout.dll"
+      ]
+    },
+    "AutomaticGraphLayout.Drawing/1.1.11": {
+      "sha512": "A2eq3GvW4pg+1QKfcy/JQZN2S4qdxli0Vqcinyq7fUIM597NRcp2vufNbo5m9tJtQN7qW+OmKcfnsesrdt3j9Q==",
+      "type": "package",
+      "path": "automaticgraphlayout.drawing/1.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automaticgraphlayout.drawing.1.1.11.nupkg.sha512",
+        "automaticgraphlayout.drawing.nuspec",
+        "lib/netstandard2.0/AutomaticGraphLayout.Drawing.dll"
+      ]
+    },
+    "AutomaticGraphLayout.GraphViewerGDI/1.1.11": {
+      "sha512": "6Mz5RfqpRh5yiGVivkTLEkHb3JTNrPiqjvLZoou+3eCof5JO/B64OK5gkZH8D7Vhu/VFF5ikvxD4mvT6xLzY1A==",
+      "type": "package",
+      "path": "automaticgraphlayout.graphviewergdi/1.1.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automaticgraphlayout.graphviewergdi.1.1.11.nupkg.sha512",
+        "automaticgraphlayout.graphviewergdi.nuspec",
+        "lib/net472/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/net61/Microsoft.Msagl.GraphViewerGdi.dll",
+        "lib/netcoreapp3.1/Microsoft.Msagl.GraphViewerGdi.dll"
+      ]
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "sha512": "z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "type": "package",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard1.0/_._",
+        "microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+        "microsoft.netcore.platforms.nuspec",
+        "runtime.json",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/4.7.0": {
+      "sha512": "mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/net461/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/net461/Microsoft.Win32.SystemEvents.xml",
+        "ref/net472/Microsoft.Win32.SystemEvents.dll",
+        "ref/net472/Microsoft.Win32.SystemEvents.xml",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/4.7.0": {
+      "sha512": "v+XbyYHaZjDfn0ENmJEV1VYLgGgCTx1gnfOBcppowbpOAriglYgGCvFCPr2EEZyBvXlpxbEsTwkOlInl107ahA==",
+      "type": "package",
+      "path": "system.drawing.common/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.dll",
+        "ref/netcoreapp3.0/System.Drawing.Common.xml",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.xml",
+        "system.drawing.common.4.7.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.7.0": {
+      "sha512": "aeu4FlaUTemuT1qOd1MyU4T516QR4Fy+9yDbwWMPHOHy7U8FD6SgTzdZFO7gHcfAPHtECqInbwklVvUK4RHcNg==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.xml",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.xml",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "system.text.encoding.codepages.4.7.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Draw_Graph/1.0.0": {
+      "type": "project",
+      "path": "../Draw_Graph/Draw_Graph.csproj",
+      "msbuildProject": "../Draw_Graph/Draw_Graph.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Aspose.Cells >= 20.12.0",
+      "Draw_Graph >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mirko\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\ALNS_EVRP\\ALNS_EVRP.csproj",
+      "projectName": "ALNS_EVRP",
+      "projectPath": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\ALNS_EVRP\\ALNS_EVRP.csproj",
+      "packagesPath": "C:\\Users\\mirko\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\ALNS_EVRP\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mirko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\Draw_Graph\\Draw_Graph.csproj": {
+              "projectPath": "C:\\Users\\mirko\\Visual Studio\\workspace\\ALNS_EVRP\\Draw_Graph\\Draw_Graph.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Aspose.Cells": {
+            "target": "Package",
+            "version": "[20.12.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
